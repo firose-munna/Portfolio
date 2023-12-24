@@ -1,0 +1,139 @@
+/* Text style */
+.textPrimary{
+    color: #28a745;
+}
+.textSecondary{
+    color: #0284d0;
+}
+
+/* Button Style */
+
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background: #28a745;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.hero .content .btn{
+    
+    z-index: 2;
+}
+
+.btnPrimary, .bgPrimary{
+    color: white;
+    background: #28a745;
+}
+.btnSecondary, .bgSecondary{
+    color: white;
+    background: #0284d0;
+}
+.btnDark, .bgDark{
+    color: white;
+    background: #333;
+}
+.btnLight, .bgLight{
+    color: #333;
+    background: #f4f4f4;
+}
+
+.btnOutline{
+    background: transparent;
+    border: 1px solid white;
+}
+
+/* Flex the items */
+.flexItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.flexItem > div{
+    padding: 20px;
+}
+
+/* Flex the columns */
+.flexColumns.flexReverse .row{
+    flex-direction: row-reverse;
+}
+.flexColumns .row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.flexColumns .column{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+.flexColumns .column .column1, .flexColumns .column .column2{
+    height: 100%;
+}
+.flexColumns img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.flexColumns .column2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 30px;
+}
+.flexColumns h2{
+    font-size: 40px;
+    font-weight: 100;
+
+}
+.flexColumns h4{
+    margin-bottom: 10px;
+}
+.flexColumns p{
+    margin: 20px 0;
+    
+}
+
+/* Section headrer */
+
+.sectionHeader{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.sectionHeader h2{
+    font-size: 40px;
+    margin: 20px 0;
+}
+.sectionPadding {
+    padding: 20px 20px 40px;
+}
+
+/* flex grid */
+.flexGrid .row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+.flexGrid .column{
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+/* team image */
+.team img{
+    width: 70%;
+}
